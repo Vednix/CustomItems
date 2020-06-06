@@ -1,0 +1,6 @@
+C:\Terraria-Server-Master\#### PLUGINS ####\1.3.0.7.9\CustomItems.dll\bin\Debug\CustomItems.dll
+C:\Terraria-Server-Master\#### PLUGINS ####\1.3.0.7.9\CustomItems.dll\bin\Debug\CustomItems.pdb
+C:\Terraria-Server-Master\#### PLUGINS ####\1.3.0.7.9\CustomItems.dll\obj\Debug\CustomItems.csprojAssemblyReference.cache
+C:\Terraria-Server-Master\#### PLUGINS ####\1.3.0.7.9\CustomItems.dll\obj\Debug\CustomItems.csproj.CoreCompileInputs.cache
+C:\Terraria-Server-Master\#### PLUGINS ####\1.3.0.7.9\CustomItems.dll\obj\Debug\CustomItems.dll
+C:\Terraria-Server-Master\#### PLUGINS ####\1.3.0.7.9\CustomItems.dll\obj\Debug\CustomItems.pdb

@@ -46,7 +46,7 @@ namespace CustomItems {
             int num = parameters.Count();
 
             if (num == 0) {
-                args.Player.SendErrorMessage("Invalid Syntax. /customitem <id/itemname> <parameters> <#> ... \nParameters: hexcolor, damage, knockback, useanimation, " +
+                args.Player.SendErrorMessage("[CustomItem] Uso Correto: [c/ffd700:/customitem <id/itemname> <parâmetros> <#>] ... \nParâmetros: hexcolor, damage, knockback, useanimation, " +
                 "usetime, shoot, shootspeed, width, height, scale, ammo, useammo, notammo.");
                 return;
             }
@@ -101,19 +101,19 @@ namespace CustomItems {
             int num = parameters.Count();
 
             if (num == 0) {
-                args.Player.SendErrorMessage("Invalid Syntax. /givecustomitem <name> <id/itemname> <parameters> <#> ... \nParameters: hexcolor, damage, knockback, useanimation, " +
+                args.Player.SendErrorMessage("[CustomItem] Uso Correto: [c/ffd700:/givecustomitem <name> <id/itemname> <parâmetros> <#>] ... \nParâmetros: hexcolor, damage, knockback, useanimation, " +
                 "usetime, shoot, shootspeed, width, height, scale, ammo, useammo, notammo.");
                 return;
             }
 
             List<TSPlayer> players = TShock.Utils.FindPlayer(args.Parameters[0]);
             if (players.Count != 1) {
-                args.Player.SendErrorMessage("Failed to find player of: " + args.Parameters[0]);
+                args.Player.SendErrorMessage("[CustomItem] Jogador não encontrado: " + args.Parameters[0]);
                 return;
             }
 
             if (num == 1) {
-                args.Player.SendErrorMessage("Failed to provide arguments to item.");
+                args.Player.SendErrorMessage("[CustomItem] Ocorreu um erro ao aplicar os parâmetros ao item.");
                 return;
             }
 
